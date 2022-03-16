@@ -412,8 +412,9 @@ def manager_init():
   if reg_res:
     dongle_id = reg_res
   else:
-    raise Exception("server registration failed")
-  os.environ['DONGLE_ID'] = dongle_id
+    serial = params.get("HardwareSerial")
+    raise Exception(f"Registration failed for device {serial}")
+  os.environ['DONGLE_ID'] = dongle_id  # Needed for swaglog
 
   if not dirty:
     os.environ['CLEAN'] = '1'

@@ -1471,6 +1471,69 @@ BO_ 2000 Diagnose_1: 8 XXX
  SG_ DI1_KM_Stand_alt : 62|1@1+ (1,0) [0|1] "" XXX
  SG_ DI1_Zeit_alt : 63|1@1+ (1,0) [0|1] "" XXX
 
+BO_ 1565 BAP_ASG_0E: 8 XXX
+ SG_ ASG_0E_logicalDeviceID : 3|6@0+ (1,0) [0|63] "" XXX
+ SG_ ASG_0E_operationCode : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ ASG_0E_frameLength : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ ASG_0E_functionID : 13|6@0+ (1,0) [0|63] "" XXX
+
+BO_ 1650 BAP_SWA: 8 XXX
+ SG_ SWA_logicalDeviceID : 3|6@0+ (1,0) [0|63] "" XXX
+ SG_ SWA_operationCode : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ SWA_frameLength : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ SWA_functionID : 13|6@0+ (1,0) [0|63] "" XXX
+
+BO_ 1651 BAP_LDW: 8 XXX
+ SG_ LDW_logicalDeviceID : 3|6@0+ (1,0) [0|63] "" XXX
+ SG_ LDW_operationCode : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ LDW_frameLength : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ LDW_functionID : 13|6@0+ (1,0) [0|63] "" XXX
+
+BO_ 1652 BAP_ACC: 8 XXX
+ SG_ ACC_logicalDeviceID : 3|6@0+ (1,0) [0|63] "" XXX
+ SG_ ACC_operationCode : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ ACC_frameLength : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ ACC_functionID : 13|6@0+ (1,0) [0|63] "" XXX
+
+BO_ 1654 BAP_Anzeige: 8 XXX
+ SG_ Anzeige_logicalDeviceID : 3|6@0+ (1,0) [0|63] "" XXX
+ SG_ Anzeige_operationCode : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ Anzeige_frameLength : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ Anzeige_functionID : 13|6@0+ (1,0) [0|63] "" XXX
+
+BO_ 1658 BAP_Anzeige_02: 8 XXX
+ SG_ Anzeige02_logicalDeviceID : 3|6@0+ (1,0) [0|63] "" XXX
+ SG_ Anzeige02_operationCode : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ Anzeige02_frameLength : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ Anzeige02_functionID : 13|6@0+ (1,0) [0|63] "" XXX
+
+BO_ 1691 BAP_VZA: 8 XXX
+ SG_ VZA_logicalDeviceID : 3|6@0+ (1,0) [0|63] "" XXX
+ SG_ VZA_operationCode : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ VZA_frameLength : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ VZA_functionID : 13|6@0+ (1,0) [0|63] "" XXX
+
+BO_ 1736 BAP_ASG_01: 8 XXX
+ SG_ ASG_01_logicalDeviceID : 3|6@0+ (1,0) [0|63] "" XXX
+ SG_ ASG_01_operationCode : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ ASG_01_frameLength : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ ASG_01_functionID : 13|6@0+ (1,0) [0|63] "" XXX
+
+BO_ 1750 BAP_Debug_Cmd: 8 XXX
+ SG_ Debug_Cmd_logicalDeviceID : 3|6@0+ (1,0) [0|63] "" XXX
+ SG_ Debug_Cmd_operationCode : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ Debug_Cmd_frameLength : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ Debug_Cmd_functionID : 13|6@0+ (1,0) [0|63] "" XXX
+
+BO_ 1751 BAP_Debug_Data: 8 XXX
+ SG_ Debug_Data_payload : 0|64@0+ (1,0) [0|0] "" XXX
+
+BO_ 1757 BAP_RDK: 8 XXX
+ SG_ RDK_logicalDeviceID : 3|6@0+ (1,0) [0|63] "" XXX
+ SG_ RDK_operationCode : 6|3@0+ (1,0) [0|7] "" XXX
+ SG_ RDK_frameLength : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ RDK_functionID : 13|6@0+ (1,0) [0|63] "" XXX
+
 CM_ SG_ 80 Checksumme_Airbag_1 "Checksum Airbag_1";
 CM_ SG_ 80 Zaehler_Airbag_1 "Counter Airbag_1";
 

@@ -1488,6 +1488,12 @@ BO_ 1651 BAP_LDW: 8 XXX
  SG_ LDW_operationCode : 6|3@0+ (1,0) [0|7] "" XXX
  SG_ LDW_frameLength : 7|1@0+ (1,0) [0|1] "" XXX
  SG_ LDW_functionID : 13|6@0+ (1,0) [0|63] "" XXX
+ SG_ LDW_data1 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ LDW_data2 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ LDW_data3 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ LDW_data4 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ LDW_data5 : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ LDW_data6 : 63|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 1652 BAP_ACC: 8 XXX
  SG_ ACC_logicalDeviceID : 3|6@0+ (1,0) [0|63] "" XXX

@@ -124,9 +124,8 @@ class CarInterface(CarInterfaceBase):
       ret.wheelbase = 2.79
 
     elif candidate == CAR.PASSAT_NMS:
-      ret.mass = 1503
-      ret.wheelbase = 2.62
-      ret.minEnableSpeed = 20 * CV.KPH_TO_MS  # ACC "basic", no FtS
+      ret.mass = 1650
+      ret.wheelbase = 2.80
       ret.steerActuatorDelay = 0.2
       CarInterfaceBase.configure_torque_tune(candidate, ret.lateralTuning)
 
